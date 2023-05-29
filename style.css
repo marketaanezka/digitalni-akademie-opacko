@@ -273,4 +273,41 @@ body, .navlink {
   }
 
   /* TADY PIŠTE STYLY PRO ŠÍŘKU NAD 800PX */
+
+  .pricelist__content {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 3rem;
+  }
+
+  .offer {
+    max-width: 220px;
+  }
+
+  .review__photo {
+    background-image: url(./images/reviewer.jpg);
+    height: 400px;
+    width: 300px;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .review__text {
+    background-color: var(--background-secondary);
+    width: 250px;
+    position: relative;
+    left: 60px;
+  }
+
+  .footer {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 3rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .pricelist__content, .footer {
+    gap: 6rem;
+  }
 }
