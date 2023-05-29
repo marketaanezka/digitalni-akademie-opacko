@@ -185,6 +185,58 @@ span {
 
 /* SEM ZAČNĚTE PSÁT SVÉ STYLY PRO MOBIL */
 
+body, .navlink {
+  font-family: 'Alegreya Sans', sans-serif;
+  color: var(--text);
+}
+
+.logo {
+  font-family: 'Dawning of a New Day', cursive;
+}
+
+.pitch {
+  font-family: 'Lora', serif;
+  text-align: center;
+}
+
+.page-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.page-header, .pitch, .pricelist, .footer {
+  background-color: var(--background-secondary);
+}
+
+.subheading, .review {
+  background-color: var(--background-primary);
+}
+
+.subheading {
+  text-align: center;
+}
+
+.subheading__content {
+  max-width: 800px;
+}
+
+.intro-image {
+  background-image: url(./images/arnica-intro.jpg);
+  height: 70vh;
+  background-position: center;
+  background-size: cover;
+}
+
+.offer {
+  width: 80%;
+  max-width: 270px;
+}
+
+.review__text {
+  font-style: oblique;
+  border: 2px solid var(--background-secondary);
+}
+
 @media (min-width: 840px) {
   /* HLAVIČKA - NAVIGACE */
   .page-header {
